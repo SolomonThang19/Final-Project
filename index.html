@@ -1,31 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>XP Task Manager</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<h2>Level: <span id="level">1</span></h2>
+<h3>XP: <span id="xp">0</span>/50</h3>
 
-<div class="app">
-  <h1>🚀 XP Task Manager</h1>
-
-  <div class="stats">
-    <div>Level <span id="level">1</span></div>
-    <div>XP <span id="xp">0</span>/50</div>
-  </div>
-
-  <div class="progress-bar">
-    <div id="progress"></div>
-  </div>
-
-  <div class="input-group">
-    <input type="text" id="taskInput" placeholder="Add a new quest...">
-    <button onclick="addTask()">+</button>
-  </div>
-
-  <ul id="taskList"></ul>
+<div style="width: 100%; background: #ddd;">
+  <div id="progress" style="width: 0%; height: 20px; background: green;"></div>
 </div>
-
-<script src="script.js"></script>
-</body>
-</html>
