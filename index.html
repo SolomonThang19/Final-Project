@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Task Manager</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<h2>Level: <span id="level">1</span></h2>
+<h3>XP: <span id="xp">0</span>/50</h3>
 
-<h1>Task Manager</h1>
-
-<input type="text" id="taskInput" placeholder="Enter a task">
-<button onclick="addTask()">Add</button>
-
-<ul id="taskList"></ul>
-
-<script src="script.js"></script>
-</body>
-</html>
+<div style="width: 100%; background: #ddd;">
+  <div id="progress" style="width: 0%; height: 20px; background: green;"></div>
+</div>
